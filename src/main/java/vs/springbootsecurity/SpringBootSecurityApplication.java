@@ -27,7 +27,7 @@ class HomeController {
 @RestController
 class UnsecuredController {
 
-	@GetMapping("unsecured")
+	@GetMapping("/unsecured")
 	public String unsecured() {
 		return "Unsecured Controller";
 	}
@@ -37,7 +37,7 @@ class UnsecuredController {
 @RestController
 class SecuredController {
 
-	@GetMapping("secured")
+	@GetMapping("/secured")
 	public String secured() {
 		return "Secured Controller";
 	}
